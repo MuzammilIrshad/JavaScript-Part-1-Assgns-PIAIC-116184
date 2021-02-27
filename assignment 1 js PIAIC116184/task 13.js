@@ -1,0 +1,26 @@
+// JavaScript source code
+document.write("<b>RESULT:</b>");
+document.write("<br/>");
+document.write("<br/>");
+var a = 10;
+document.write("The value of a is: " + a);
+document.write("<hr/>");
+document.write("<br/>");
+document.write("The value of ++a is: " + ++a);
+document.write("<br/>");
+document.write("Now The value of a is: " + a);
+document.write("<br/>");
+document.write("<br/>");
+document.write("The value of a++ is: " + a++);
+document.write("<br/>");
+document.write("Now The value of a is: " + a);
+document.write("<br/>");
+document.write("<br/>");
+document.write(" The value of --a is: " + --a);
+document.write("<br/>");
+document.write("Now The value of a is: " + a);
+document.write("<br/>");
+document.write("<br/>");
+document.write("The value of a-- is: " + a--);
+document.write("<br/>");
+document.write("Now The value of a is: " + a);

@@ -1,0 +1,28 @@
+// JavaScript source code
+var colors = ["red", "green", "blue"];
+document.write("Colors:   " + colors);
+var color = prompt("Enter the color:");
+colors.unshift(color);
+document.write("<br/>");
+document.write("Colors:   " + colors);
+document.write("<br/>");
+var color = prompt("Enter the color:");
+colors.push(color);
+document.write("Colors:   " + colors);
+document.write("<br/>");
+colors.unshift("Purple", "Brown");
+document.write("Colors:   " + colors);
+document.write("<br/>");
+colors = colors.slice(1);
+document.write("Colors:   " + colors);
+document.write("<br/>");
+colors = colors.slice(0, colors.length-1);
+document.write("Colors:   " + colors);
+document.write("<br/>");
+//var color = prompt("Enter the color:");
+//var index = Number(prompt("Enter index Number"));
+ colors.splice(parseInt(prompt("Enter number")), 0, prompt("Enter Color"));
+document.write("Colors:   " + colors);
+document.write("<br/>");
+colors.splice(parseInt(prompt("Enter number")), parseInt(prompt("Enter number")));
+document.write("Colors:   " + colors);
